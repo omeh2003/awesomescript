@@ -3,6 +3,9 @@ import sys
 import subprocess
 
 
+# TODO
+# Несколько потоков на распаковку
+
 def main():
     os.chdir(os.path.abspath(os.path.curdir))
     file = os.path.curdir
