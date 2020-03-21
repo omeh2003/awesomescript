@@ -10,10 +10,8 @@ def main():
     os.chdir(os.path.abspath(os.path.curdir))
     file = os.path.curdir
     strings = os.listdir(file)
-
     s = ""
     for s in strings:
-
         print(s)
         print(os.path.isfile(os.path.normpath(s)))
         if os.path.isfile(s) and s.rpartition(".")[2] == "apk":
